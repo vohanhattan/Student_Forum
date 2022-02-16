@@ -1,0 +1,399 @@
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\ApplicationInsights.config
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\ForumSystem.Web.dll.config
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\ForumSystem.Web.dll
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\ForumSystem.Web.pdb
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Antlr3.Runtime.dll
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Autofac.dll
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Autofac.Integration.Mvc.dll
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\AutoMapper.dll
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\EntityFramework.dll
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\EntityFramework.SqlServer.dll
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\ForumSystem.Common.dll
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\ForumSystem.Data.Common.dll
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\ForumSystem.Data.dll
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\ForumSystem.Data.Models.dll
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\ForumSystem.Web.Infrastructure.dll
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Microsoft.AI.DependencyCollector.dll
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Microsoft.AI.Web.dll
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Microsoft.AI.WindowsServer.dll
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Microsoft.ApplicationInsights.dll
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Microsoft.AspNet.SignalR.Core.dll
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Microsoft.Owin.dll
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Microsoft.Owin.Security.dll
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Microsoft.Owin.Security.Google.dll
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Microsoft.Web.Infrastructure.dll
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Newtonsoft.Json.dll
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\NonFactors.Mvc.Grid.dll
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Owin.dll
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\PagedList.dll
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\PagedList.Mvc.dll
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\reCAPTCHA.MVC.dll
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\System.Web.Helpers.dll
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\System.Web.Mvc.dll
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\System.Web.Optimization.dll
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\System.Web.Razor.dll
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\System.Web.WebPages.Deployment.dll
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\System.Web.WebPages.dll
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\System.Web.WebPages.Razor.dll
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\WebGrease.dll
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\ForumSystem.Common.pdb
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\ForumSystem.Data.Common.pdb
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\ForumSystem.Data.Common.dll.config
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\ForumSystem.Data.Models.pdb
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\ForumSystem.Data.Models.dll.config
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\ForumSystem.Data.pdb
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\ForumSystem.Data.dll.config
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\ForumSystem.Web.Infrastructure.pdb
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\ForumSystem.Web.Infrastructure.dll.config
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Antlr3.Runtime.pdb
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Autofac.xml
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Autofac.Integration.Mvc.xml
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\AutoMapper.xml
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Microsoft.AI.DependencyCollector.xml
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Microsoft.AI.Web.xml
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Microsoft.AI.WindowsServer.xml
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Microsoft.ApplicationInsights.xml
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Microsoft.AspNet.SignalR.Core.xml
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Newtonsoft.Json.xml
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\PagedList.xml
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\PagedList.Mvc.xml
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\System.Web.Helpers.xml
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\System.Web.Mvc.xml
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\System.Web.Optimization.xml
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\System.Web.Razor.xml
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\System.Web.WebPages.xml
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\System.Web.WebPages.Deployment.xml
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\System.Web.WebPages.Razor.xml
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\EntityFramework.xml
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\EntityFramework.SqlServer.xml
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Microsoft.Owin.xml
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Microsoft.Owin.Security.xml
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Microsoft.Owin.Security.Google.xml
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\obj\Debug\ForumSystem.Web.csprojAssemblyReference.cache
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\obj\Debug\ForumSystem.Web.csproj.CoreCompileInputs.cache
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\obj\Debug\ForumSystem.Web.csproj.CopyComplete
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\obj\Debug\ForumSystem.Web.dll
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\obj\Debug\ForumSystem.Web.pdb
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\roslyn\csc.exe
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\roslyn\csc.exe.config
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\roslyn\csc.rsp
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\roslyn\csi.exe
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\roslyn\csi.exe.config
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\roslyn\csi.rsp
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\roslyn\Microsoft.Managed.EditorConfig.targets
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\roslyn\System.Buffers.dll
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\roslyn\System.Collections.Immutable.dll
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\roslyn\System.Memory.dll
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\roslyn\System.Numerics.Vectors.dll
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\roslyn\System.Reflection.Metadata.dll
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\roslyn\vbc.exe
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\roslyn\vbc.exe.config
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\roslyn\vbc.rsp
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\roslyn\VBCSCompiler.exe
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\roslyn\VBCSCompiler.exe.config
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\ApplicationInsights.config
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\roslyn\csc.exe
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\roslyn\csc.exe.config
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\roslyn\csc.rsp
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\roslyn\csi.exe
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\roslyn\csi.exe.config
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\roslyn\csi.rsp
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\roslyn\Microsoft.Managed.Core.targets
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\roslyn\Microsoft.Managed.EditorConfig.targets
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\roslyn\System.Buffers.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\roslyn\System.Collections.Immutable.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\roslyn\System.Memory.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\roslyn\System.Numerics.Vectors.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\roslyn\System.Reflection.Metadata.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\roslyn\vbc.exe
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\roslyn\vbc.exe.config
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\roslyn\vbc.rsp
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\roslyn\VBCSCompiler.exe
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\roslyn\VBCSCompiler.exe.config
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\ForumSystem.Web.dll.config
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\ForumSystem.Web.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\ForumSystem.Web.pdb
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Antlr3.Runtime.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Autofac.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Autofac.Integration.Mvc.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\AutoMapper.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\EntityFramework.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\EntityFramework.SqlServer.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\ForumSystem.Common.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\ForumSystem.Data.Common.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\ForumSystem.Data.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\ForumSystem.Data.Models.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\ForumSystem.Web.Infrastructure.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Microsoft.AI.Agent.Intercept.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Microsoft.AI.DependencyCollector.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Microsoft.AI.Web.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Microsoft.AI.WindowsServer.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Microsoft.ApplicationInsights.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Microsoft.AspNet.Identity.Core.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Microsoft.AspNet.SignalR.Core.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Microsoft.Owin.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Microsoft.Owin.Security.Cookies.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Microsoft.Owin.Security.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Microsoft.Owin.Security.Facebook.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Microsoft.Owin.Security.Google.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Microsoft.Owin.Security.OAuth.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Microsoft.Owin.Security.Twitter.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Microsoft.Web.Infrastructure.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Newtonsoft.Json.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\NonFactors.Mvc.Grid.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Owin.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\PagedList.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\PagedList.Mvc.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\reCAPTCHA.MVC.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\System.Web.Helpers.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\System.Web.Mvc.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\System.Web.Optimization.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\System.Web.Razor.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\System.Web.WebPages.Deployment.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\System.Web.WebPages.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\System.Web.WebPages.Razor.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\WebGrease.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\ForumSystem.Common.pdb
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\ForumSystem.Data.Common.pdb
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\ForumSystem.Data.Common.dll.config
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\ForumSystem.Data.Models.pdb
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\ForumSystem.Data.Models.dll.config
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\ForumSystem.Data.pdb
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\ForumSystem.Data.dll.config
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\ForumSystem.Web.Infrastructure.pdb
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\ForumSystem.Web.Infrastructure.dll.config
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Antlr3.Runtime.pdb
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Autofac.xml
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Autofac.Integration.Mvc.xml
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\AutoMapper.xml
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Microsoft.AI.DependencyCollector.xml
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Microsoft.AI.Web.xml
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Microsoft.AI.WindowsServer.xml
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Microsoft.ApplicationInsights.xml
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Microsoft.AspNet.SignalR.Core.xml
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Newtonsoft.Json.xml
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\PagedList.xml
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\PagedList.Mvc.xml
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\System.Web.Helpers.xml
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\System.Web.Mvc.xml
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\System.Web.Optimization.xml
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\System.Web.Razor.xml
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\System.Web.WebPages.xml
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\System.Web.WebPages.Deployment.xml
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\System.Web.WebPages.Razor.xml
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\EntityFramework.xml
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\EntityFramework.SqlServer.xml
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Microsoft.AspNet.Identity.Core.xml
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Microsoft.Owin.xml
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Microsoft.Owin.Security.xml
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Microsoft.Owin.Security.Facebook.xml
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Microsoft.Owin.Security.Cookies.xml
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Microsoft.Owin.Security.OAuth.xml
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Microsoft.Owin.Security.Google.xml
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Microsoft.Owin.Security.Twitter.xml
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\obj\Debug\ForumSystem.Web.csprojAssemblyReference.cache
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\obj\Debug\ForumSystem.Web.csproj.CoreCompileInputs.cache
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\obj\Debug\ForumSystem.Web.csproj.CopyComplete
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\obj\Debug\ForumSystem.Web.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web\obj\Debug\ForumSystem.Web.pdb
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\ApplicationInsights.config
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\roslyn\csc.exe
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\roslyn\csc.exe.config
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\roslyn\csc.rsp
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\roslyn\csi.exe
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\roslyn\csi.exe.config
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\roslyn\csi.rsp
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\roslyn\Microsoft.Managed.Core.targets
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\roslyn\Microsoft.Managed.EditorConfig.targets
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\roslyn\System.Buffers.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\roslyn\System.Collections.Immutable.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\roslyn\System.Memory.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\roslyn\System.Numerics.Vectors.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\roslyn\System.Reflection.Metadata.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\roslyn\vbc.exe
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\roslyn\vbc.exe.config
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\roslyn\vbc.rsp
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\roslyn\VBCSCompiler.exe
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\roslyn\VBCSCompiler.exe.config
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\ForumSystem.Web.dll.config
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\ForumSystem.Web.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\ForumSystem.Web.pdb
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\Antlr3.Runtime.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\Autofac.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\Autofac.Integration.Mvc.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\AutoMapper.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\EntityFramework.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\EntityFramework.SqlServer.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\ForumSystem.Common.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\ForumSystem.Data.Common.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\ForumSystem.Data.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\ForumSystem.Data.Models.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\ForumSystem.Web.Infrastructure.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\Microsoft.AI.Agent.Intercept.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\Microsoft.AI.DependencyCollector.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\Microsoft.AI.Web.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\Microsoft.AI.WindowsServer.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\Microsoft.ApplicationInsights.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\Microsoft.AspNet.Identity.Core.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\Microsoft.AspNet.SignalR.Core.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\Microsoft.Owin.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\Microsoft.Owin.Security.Cookies.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\Microsoft.Owin.Security.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\Microsoft.Owin.Security.Facebook.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\Microsoft.Owin.Security.Google.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\Microsoft.Owin.Security.OAuth.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\Microsoft.Owin.Security.Twitter.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\Microsoft.Web.Infrastructure.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\Newtonsoft.Json.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\NonFactors.Mvc.Grid.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\Owin.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\PagedList.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\PagedList.Mvc.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\reCAPTCHA.MVC.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\System.Web.Helpers.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\System.Web.Mvc.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\System.Web.Optimization.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\System.Web.Razor.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\System.Web.WebPages.Deployment.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\System.Web.WebPages.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\System.Web.WebPages.Razor.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\WebGrease.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\ForumSystem.Common.pdb
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\ForumSystem.Data.Common.pdb
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\ForumSystem.Data.Common.dll.config
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\ForumSystem.Data.Models.pdb
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\ForumSystem.Data.Models.dll.config
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\ForumSystem.Data.pdb
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\ForumSystem.Data.dll.config
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\ForumSystem.Web.Infrastructure.pdb
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\ForumSystem.Web.Infrastructure.dll.config
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\Antlr3.Runtime.pdb
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\Autofac.xml
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\Autofac.Integration.Mvc.xml
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\AutoMapper.xml
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\Microsoft.AI.DependencyCollector.xml
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\Microsoft.AI.Web.xml
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\Microsoft.AI.WindowsServer.xml
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\Microsoft.ApplicationInsights.xml
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\Microsoft.AspNet.SignalR.Core.xml
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\Newtonsoft.Json.xml
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\PagedList.xml
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\PagedList.Mvc.xml
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\System.Web.Helpers.xml
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\System.Web.Mvc.xml
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\System.Web.Optimization.xml
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\System.Web.Razor.xml
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\System.Web.WebPages.xml
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\System.Web.WebPages.Deployment.xml
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\System.Web.WebPages.Razor.xml
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\EntityFramework.xml
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\EntityFramework.SqlServer.xml
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\Microsoft.AspNet.Identity.Core.xml
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\Microsoft.Owin.xml
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\Microsoft.Owin.Security.xml
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\Microsoft.Owin.Security.Facebook.xml
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\Microsoft.Owin.Security.Cookies.xml
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\Microsoft.Owin.Security.OAuth.xml
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\Microsoft.Owin.Security.Google.xml
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\Microsoft.Owin.Security.Twitter.xml
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\obj\Debug\ForumSystem.Web.csprojAssemblyReference.cache
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\obj\Debug\ForumSystem.Web.csproj.CoreCompileInputs.cache
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\obj\Debug\ForumSystem.Web.csproj.CopyComplete
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\obj\Debug\ForumSystem.Web.dll
+D:\2 Kì 1 năm 2020-2021\Lap trinh web\doan\ForumSystem-master\ForumSystem-master\NHOM15_TUVANSINHVIEN\TUVANSINHVIEN\Web\ForumSystem.Web\obj\Debug\ForumSystem.Web.pdb

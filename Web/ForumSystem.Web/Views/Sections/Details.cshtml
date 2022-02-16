@@ -1,0 +1,13 @@
+﻿@model ForumSystem.Web.ViewModels.Sections.SectionViewModel
+
+@{
+    ViewBag.Title = Model.Title;
+    Layout = "~/Views/Shared/_SectionPageLayout.cshtml";
+}
+
+<a href="@Url.Action("Index", "Home", new { area = string.Empty })" class="btn primary-btn btn-sm">
+    <i class="fa fa-chevron-left"></i>
+    <span>All Sections</span>
+</a>
+
+@Html.Action("Categories", "Sections", new { area = string.Empty, id = Model.Id })

@@ -1,0 +1,12 @@
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Data\ForumSystem.Data.Common\bin\Debug\ForumSystem.Data.Common.dll.config
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Data\ForumSystem.Data.Common\bin\Debug\ForumSystem.Data.Common.dll
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Data\ForumSystem.Data.Common\bin\Debug\ForumSystem.Data.Common.pdb
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Data\ForumSystem.Data.Common\bin\Debug\EntityFramework.dll
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Data\ForumSystem.Data.Common\bin\Debug\EntityFramework.SqlServer.dll
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Data\ForumSystem.Data.Common\bin\Debug\EntityFramework.xml
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Data\ForumSystem.Data.Common\bin\Debug\EntityFramework.SqlServer.xml
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Data\ForumSystem.Data.Common\obj\Debug\ForumSystem.Data.Common.csprojAssemblyReference.cache
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Data\ForumSystem.Data.Common\obj\Debug\ForumSystem.Data.Common.csproj.CoreCompileInputs.cache
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Data\ForumSystem.Data.Common\obj\Debug\ForumSystem.Data.Common.csproj.CopyComplete
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Data\ForumSystem.Data.Common\obj\Debug\ForumSystem.Data.Common.dll
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Data\ForumSystem.Data.Common\obj\Debug\ForumSystem.Data.Common.pdb

@@ -1,0 +1,64 @@
+﻿@model ForumSystem.Web.ViewModels.Users.UserViewModel
+
+<div class="profile-forum-activity-wrapper">
+    <div class="row">
+        <div class="col-md-12">
+            <a href="" type="button"></a>
+            <button class="btn btn-primary btn-group-justified" data-toggle="collapse" data-target="#forum-activity">Forum Activities</button>
+            <div class="panel panel-default">
+                <div class="panel-body collapse in" id="forum-activity">
+                    <ul class="nav navbar-nav navbar-forum-activity">
+                        <li>
+                            @Ajax.ActionLink($"Posts ({Model.PostsCount})", "Posts", "Users", new { area = string.Empty, id = Model.Id }, new AjaxOptions
+                                               {
+                                                   HttpMethod = "GET",
+                                                   InsertionMode = InsertionMode.Replace,
+                                                   UpdateTargetId = "forum-activity-data-holder",
+                                                   OnBegin = "ShowSpinner",
+                                                   OnComplete = "RemoveSpinner",
+                                                   OnSuccess = "SelectPostTab"
+                                               }, new { @class = "navbar-item", id = "user-posts-item" })
+                        </li>
+                        <li>
+                            @Ajax.ActionLink($"Answers ({Model.AnswersCount})", "Answers", "Users", new { area = string.Empty, id = Model.Id }, new AjaxOptions
+                                               {
+                                                   HttpMethod = "GET",
+                                                   InsertionMode = InsertionMode.Replace,
+                                                   UpdateTargetId = "forum-activity-data-holder",
+                                                   OnBegin = "ShowSpinner",
+                                                   OnComplete = "RemoveSpinner",
+                                                   OnSuccess = "SelectAnswerTab"
+                                               }, new { @class = "navbar-item", id = "user-answers-item" })
+                        </li>
+                        <li>
+                            @Ajax.ActionLink($"Comments ({Model.CommentsCount})", "Comments", "Users", new { area = string.Empty, id = Model.Id }, new AjaxOptions
+                                               {
+                                                   HttpMethod = "GET",
+                                                   InsertionMode = InsertionMode.Replace,
+                                                   UpdateTargetId = "forum-activity-data-holder",
+                                                   OnBegin = "ShowSpinner",
+                                                   OnComplete = "RemoveSpinner",
+                                                   OnSuccess = "SelectCommentTab"
+                                               }, new { @class = "navbar-item", id = "user-comments-item" })
+                        </li>
+                    </ul>
+                    <div class="data-holder" id="forum-activity-data-holder">
+                        <div class="spinner" id="loading">
+                            <i class="fa fa-spinner fa-pulse fa-3x fa-fw margin-bottom"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    function ShowSpinner() {
+        $('#loading').css("display", "block");
+    }
+
+    function RemoveSpinner() {
+        $('#loading').css("display", "none");
+    }
+</script>

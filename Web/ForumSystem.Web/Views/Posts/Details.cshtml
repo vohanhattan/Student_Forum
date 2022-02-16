@@ -1,0 +1,47 @@
+﻿@model ForumSystem.Web.ViewModels.Posts.PostViewModel
+
+@{
+    ViewBag.Title = Model.Title;
+    Layout = "~/Views/Shared/_PostPageLayout.cshtml";
+}
+
+
+<a href="@Url.Action("Create", "Posts", new { area = string.Empty, id = Model.CategoryId })" class="btn success-btn btn-sm">
+    <i class="fa fa-plus"></i>
+    <span>New Post</span>
+</a>
+
+@Html.Partial("_PostDetailPartial", Model)
+
+@Html.Action("Answers", "Posts", new { area = string.Empty, id = Model.Id })
+
+<script>
+    function LoadPostReports() {
+        $('#post-reports').modal('show');
+    }
+
+    function DeletePostConfirm_@(Model.Id)() {
+        $('#delete-post-confirm-@Model.Id').modal('show');
+    }
+
+    function PinPostConfirm_@(Model.Id)() {
+        $('#pin-post-confirm-@Model.Id').modal('show');
+    }
+
+    function UnpinPostConfirm_@(Model.Id)() {
+        $('#unpin-post-confirm-@Model.Id').modal('show');
+    }
+
+    function UnlockPostConfirm_@(Model.Id)() {
+        $('#unlock-post-confirm-@Model.Id').modal('show');
+    }
+
+    $('.modal ').click(function () {
+        $('.modal, .inner').hide();
+
+    });
+
+    $('.inner').click(function (e) {
+        e.stopPropagation();
+    });
+</script>

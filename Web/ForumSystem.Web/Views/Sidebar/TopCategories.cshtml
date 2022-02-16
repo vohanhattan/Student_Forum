@@ -1,0 +1,44 @@
+﻿@using System.Collections.Generic
+
+@model IEnumerable<ForumSystem.Web.ViewModels.Categories.CategoryConciseViewModel>
+
+<div class="forum-sidebar category-wrapper">
+    <h3 class="sidebar-title" data-toggle="collapse" data-target="#displayCategories">
+        Popular Categories
+        <i class="fa fa-chevron-down"></i>
+    </h3>
+
+    <ul id="displayCategories" class="sidebar-nav collapse in col-md-12 col-sm-4">
+        @foreach (var item in Model)
+        {
+            <li>
+                <a href="@Url.Action("Details", "Categories", new { area = string.Empty, id = item.Id })" class="nav-link">
+                    @item.Title
+                    <span class="badge-note">(@item.PostsCount)</span>
+                </a>
+            </li>
+        }
+    </ul>
+</div>
+
+<script>
+    $(document).ready(function () {
+        if ($(window).width() < 991) {
+            $('.category-wrapper').find('.sidebar-nav').removeClass('in');
+        }
+
+        $(window).resize(function () {
+            var isCollapsed = $('.category-wrapper').find('.in');
+
+            if ($(window).width() < 991 && isCollapsed.length > 0) {
+                console.log("Remove");
+                $('.category-wrapper').find('.sidebar-nav').removeClass('in');
+            }
+
+            if ($(window).width() > 991 && isCollapsed.length === 0) {
+                console.log("Down");
+                $('.category-wrapper').find('.sidebar-nav').addClass('in');
+            }
+        });
+    });
+</script>

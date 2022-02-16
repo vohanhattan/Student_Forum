@@ -1,0 +1,7 @@
+﻿@using System.Collections.Generic
+@model IEnumerable<ForumSystem.Web.ViewModels.Comments.CommentViewModel>
+
+@foreach (var comment in Model)
+{
+    @Html.Partial("_CommentDetailPartial", comment)
+}

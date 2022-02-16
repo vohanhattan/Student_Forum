@@ -1,0 +1,174 @@
+﻿@using ForumSystem.Web.Infrastructure.Extensions
+@using Microsoft.AspNet.Identity
+
+@model ForumSystem.Web.ViewModels.Comments.CommentViewModel
+
+<div id="comment-@Model.Id">
+    <article class="forum-post post-item comment-item replay-item">
+        <div class="head-post table-holder">
+            <div class="cell">
+                <div class="user-wrap">
+                    <span class="user-avatar">
+                        @Html.Action("GetUserImage", "Users", new { area = string.Empty, id = Model.AuthorId })
+                    </span>
+                    <span class="cell">
+                        <a href="@Url.Action("Details", "Users", new { area = string.Empty, id = Model.AuthorId })" class="user-name">@Model.Author</a>
+                        @Html.Action("Roles", "Users", new { area = string.Empty, id = Model.AuthorId })
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="post-content">
+            @Html.Raw(Model.Content)
+        </div>
+        <div class="meta-info table-holder meta-details">
+
+            @if (User.IsLoggedIn() && User.Identity.GetUserId() != Model.AuthorId && !Model.IsUpdating)
+            {
+                <div id="comment-like-@Model.Id">
+                    @Html.Action("Like", "CommentLikes", new { area = string.Empty, id = Model.Id })
+                </div>
+            }
+            else
+            {
+                <div class="cell stats-holder">
+                    <div class="table-holder">
+                        <div class="cell">
+                            <span class="item-wrap votes-post">
+                                <span class="icon-holder">
+                                    <i class="fa fa-thumbs-o-up"></i>
+                                </span>
+                                <span class="cell" id="answer-likes-count-@Model.Id">@Model.LikesCount</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            }
+
+            <div class="cell details-holder">
+                <div class="table-holder">
+                    <div class="cell">
+                        <span class="item-wrap">
+                            <span class="icon-holder">
+                                <i class="fa fa-clock-o"></i>
+                            </span>
+                            <span class="post-date">
+                                @Model.CreatedOn
+                            </span>
+                        </span>
+                        @if (Model.ModifiedOn.HasValue)
+                        {
+                            <span class="item-wrap category-wrap">
+                                <span class="icon-holder">
+                                    <i class="fa fa-refresh"></i>
+                                </span>
+                                <span class="cell">
+                                    <span class="date-time">@Model.ModifiedOn</span>
+                                </span>
+                            </span>
+                        }
+
+                        @if (Model.ReportsCount > 0)
+                        {
+                            <span class="item-wrap category-wrap" title="Reports">
+                                <span class="icon-holder">
+                                    <i class="fa fa-exclamation-circle"></i>
+                                </span>
+                                <span>@Model.ReportsCount</span>
+                            </span>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        @Html.Action("GetById", "CommentUpdates", new { area = string.Empty, id = Model.Id })
+
+        @if (User.IsLoggedIn())
+        {
+            <div class="meta-info table-holder meta-details post-actions-toolbar">
+                <div class="cell buttons-holder">
+                    <div class="table-holder">
+                        <div class="cell">
+
+                            @if (!Model.IsPostLocked)
+                            {
+                                @Ajax.ActionLink("Comment", "Create", "Comments", new { area = string.Empty, id = Model.AnswerId }, new AjaxOptions
+                                                   {
+                                                       HttpMethod = "GET",
+                                                       InsertionMode = InsertionMode.Replace,
+                                                       UpdateTargetId = $"answer-action-container-{Model.AnswerId}"
+                                                   }, new { @class = "btn primary-btn" })
+                            }
+
+                            @if (User.Identity.GetUserId() == Model.AuthorId && (!User.IsModerator() && !User.IsAdmin()))
+                            {
+                                @Ajax.ActionLink("Edit", "Edit", "Comments", new { area = string.Empty, id = Model.Id }, new AjaxOptions
+                                                   {
+                                                       HttpMethod = "GET",
+                                                       InsertionMode = InsertionMode.Replace,
+                                                       UpdateTargetId = $"comment-action-container-{@Model.Id}"
+                                                   }, new { @class = "btn primary-btn" })
+                            }
+
+                            @if (User.IsModerator() || User.IsAdmin())
+                            {
+                                @Ajax.ActionLink("Edit", "Edit", "Comments", new { area = "Moderator", id = Model.Id }, new AjaxOptions
+                                                   {
+                                                       HttpMethod = "GET",
+                                                       InsertionMode = InsertionMode.Replace,
+                                                       UpdateTargetId = $"comment-action-container-{@Model.Id}"
+                                                   }, new { @class = "btn primary-btn" })
+                            }
+
+                            @if (User.Identity.GetUserId() == Model.AuthorId || User.IsModerator() || User.IsAdmin())
+                            {
+                                @Ajax.ActionLink("Delete", "Delete", "Comments", new { area = string.Empty, id = Model.Id }, new AjaxOptions
+                                                   {
+                                                       HttpMethod = "GET",
+                                                       InsertionMode = InsertionMode.Replace,
+                                                       UpdateTargetId = "show-modal",
+                                                       OnSuccess = $"DeleteCommentConfirm_{Model.Id}"
+                                                   }, new { @class = "btn primary-btn" })
+                            }
+
+                            @if (Model.ReportsCount > 0 && (User.IsModerator() || User.IsAdmin()))
+                            {
+                                @Ajax.ActionLink("Reports", "GetAllById", "CommentReports", new { area = "Moderator", id = Model.Id }, new AjaxOptions
+                                                   {
+                                                       HttpMethod = "GET",
+                                                       InsertionMode = InsertionMode.Replace,
+                                                       UpdateTargetId = "show-modal",
+                                                       OnSuccess = $"LoadCommentReports_{Model.Id}"
+                                                   }, new { @class = "btn primary-btn" })
+                            }
+
+                            @if (User.Identity.GetUserId() != Model.AuthorId)
+                            {
+                                @Ajax.ActionLink("Report", "Create", "CommentReports", new { area = string.Empty, id = Model.Id }, new AjaxOptions
+                                                   {
+                                                       HttpMethod = "GET",
+                                                       InsertionMode = InsertionMode.Replace,
+                                                       UpdateTargetId = $"comment-action-container-{@Model.Id}"
+                                                   }, new { @class = "btn btn-link link-btn pull-right" })
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="meta-info" id="comment-action-container-@Model.Id"></div>
+            <div id="comment-action-success-@Model.Id"></div>
+        }
+    </article>
+</div>
+
+<script>
+    function DeleteCommentConfirm_@(Model.Id)() {
+        $('#delete-comment-confirm-@Model.Id').modal('show');
+    }
+
+    function LoadCommentReports_@(Model.Id)() {
+        $('#comment-reports-@Model.Id').modal('show');
+    }
+</script>

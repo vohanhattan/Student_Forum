@@ -1,0 +1,11 @@
+﻿@model ForumSystem.Web.ViewModels.LastActivities.PostLastActivityViewModel
+
+@if (Model.Answer == null && Model.Comment != null)
+{
+    @Html.Partial("_PostLastActivityCommentPartial", Model.Comment)
+}
+
+@if (Model.Comment == null && Model.Answer != null)
+{
+    @Html.Partial("_PostLastActivityAnswerPartial", Model.Answer)
+}

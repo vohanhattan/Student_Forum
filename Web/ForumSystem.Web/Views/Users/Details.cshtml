@@ -1,0 +1,42 @@
+﻿@using Microsoft.AspNet.Identity
+
+@model ForumSystem.Web.ViewModels.Users.UserViewModel
+
+@{
+    ViewBag.Title = "User Profile";
+}
+
+@if (User.Identity.GetUserId() == Model.Id)
+{
+    @Html.Partial("_ProfileHeadNavigationPartial", Model.Id)
+}
+
+<div class="profile-container">
+    @Html.Partial("_ProfileBaseInfoPartial", Model)
+
+    @Html.Partial("_ProfileForumActivitiesPartial", Model)
+</div>
+
+@section scripts
+{
+    <script>
+        $(document).ready(function () {
+            $('#profile-item').addClass('head-nav-selected-item');
+        });
+
+        function SelectPostTab() {
+            $('.selected-item').removeClass('selected-item');
+            $('#user-posts-item').addClass('selected-item');
+        }
+
+        function SelectAnswerTab() {
+            $('.selected-item').removeClass('selected-item');
+            $('#user-answers-item').addClass('selected-item');
+        }
+
+        function SelectCommentTab() {
+            $('.selected-item').removeClass('selected-item');
+            $('#user-comments-item').addClass('selected-item');
+        }
+    </script>
+}

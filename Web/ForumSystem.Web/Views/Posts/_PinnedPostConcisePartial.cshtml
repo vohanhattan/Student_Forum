@@ -1,0 +1,90 @@
+﻿@using ForumSystem.Web.Infrastructure.Extensions
+
+@model ForumSystem.Web.ViewModels.Posts.PostConciseViewModel
+
+<article class="forum-post highlighted-post" id="forum-post-@Model.Id">
+    <div class="head-post">
+        <h2 class="post-title">
+            <a href="@Url.Action("Details", "Posts", new { area = string.Empty, id = Model.Id })" title="@Model.Title">
+                @Model.Title
+            </a>
+        </h2>
+        <p>
+            <span class="user-wrap">
+                <span class="user-avatar">
+                    @Html.Action("GetUserImage", "Users", new { area = string.Empty, id = Model.AuthorId })
+                </span>
+                <span class="cell">
+                    <a href="@Url.Action("Details", "Users", new { area = string.Empty, id = Model.AuthorId })" class="user-name">@Model.Author</a>
+                </span>
+            </span>
+            <span class="item-wrap">
+                <span class="icon-holder">
+                    <i class="fa fa-clock-o"></i>
+                </span>
+                <span class="post-date">
+                    @Model.CreatedOn
+                </span>
+            </span>
+            <span class="item-wrap category-wrap">
+                <span class="icon-holder">
+                    <i class="fa fa-folder-open"></i>
+                </span>
+                <a href="" class="category-post">
+                    @Model.Category
+                </a>
+            </span>
+        </p>
+    </div>
+    <div class="meta-info">
+        @if (User.IsLoggedIn())
+        {
+            <div class="cell" id="post-like-@Model.Id">
+                @Html.Action("Like", "PostLikes", new { area = string.Empty, id = Model.Id })
+            </div>
+        }
+        <div class="cell stats-holder">
+            @if (!User.IsLoggedIn())
+            {
+                <span class="item-wrap votes-post">
+                    <span class="icon-holder">
+                        <i class="fa fa-thumbs-o-up"></i>
+                    </span>
+                    <span class="cell">@Model.LikesCount</span>
+                </span>
+            }
+            <span class="item-wrap">
+                <span class="icon-holder">
+                    <i class="fa fa-eye"></i>
+                </span>
+                <span class="cell">@Model.Views</span>
+            </span>
+            <span class="item-wrap">
+                <span class="icon-holder">
+                    <i class="fa fa-comments"></i>
+                </span>
+                <span class="cell">@Model.AnswersCount</span>
+            </span>
+
+            @if (Model.IsLocked)
+            {
+                <span class="item-wrap">
+                    <span class="icon-holder">
+                        <i class="fa fa-lock"></i>
+                    </span>
+                </span>
+            }
+
+            @if (Model.ReportsCount > 0)
+            {
+                <span class="item-wrap">
+                    <span class="icon-holder">
+                        <i class="fa fa-exclamation-circle"></i>
+                    </span>
+                    <span class="cell">@Model.ReportsCount</span>
+                </span>
+            }
+        </div>
+        @Html.Action("Post", "LastActivities", new { area = string.Empty, id = Model.Id })
+    </div>
+</article>

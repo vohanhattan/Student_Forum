@@ -1,0 +1,36 @@
+﻿@model string
+
+<div class="navbar-user">
+    <div class="container container-holder">
+        <ul class="nav navbar-nav">
+            <li>
+                <a href="@Url.Action("Details", "Users", new { area = string.Empty, id = Model })" id="profile-item">
+                    Profile
+                </a>
+            </li>
+            <li>
+                <a href="@Url.Action("All", "Notifications", new { area = string.Empty })" id="notifications-item">
+                    Notifications
+                </a>
+            </li>
+            <li>
+                <a href="@Url.Action("Edit", "Users", new { area = string.Empty, id = Model })" id="edit-profile-item">
+                    Edit
+                </a>
+            </li>
+            <li>
+                <a href="@Url.Action("Index", "Manage", new { area = string.Empty })" id="settings-item">
+                    Settings
+                </a>
+            </li>
+            <li>
+                <a href="@Url.Action("ChangePassword", "Manage", new { area = string.Empty })" id="change-password-item">
+                    Change Password
+                </a>
+            </li>
+            <li class="logout">
+                @Html.Partial("_LogoutPartial")
+            </li>
+        </ul>
+    </div>
+</div>

@@ -1,0 +1,36 @@
+﻿@using System.Linq
+@using PagedList.Mvc
+@model PagedList.IPagedList<ForumSystem.Web.ViewModels.Posts.PostConciseViewModel>
+
+@{
+    const string PostsPartialViewsFolder = "~/Views/Posts/{0}.cshtml";
+    var categoryId = Model.Select(m => m.CategoryId).FirstOrDefault();
+}
+
+@if (Model.Any())
+{
+    foreach (var post in Model)
+    {
+        @Html.Partial(string.Format(PostsPartialViewsFolder, "_PostConcisePartial"), post)
+    }
+
+    if (Model.HasNextPage || Model.HasPreviousPage)
+    {
+        <div class="pagination-container">
+            <div class="inner-holder">
+                @Html.PagedListPager(Model, page => Url.Action("Details", new { id = categoryId, page }), PagedListRenderOptions.ClassicPlusFirstAndLast)
+            </div>
+        </div>
+    }
+
+}
+else
+{
+    <div class="row">
+        <div class="col-md-12">
+            <h1 class="text-center">No posts available for this category</h1>
+        </div>
+    </div>
+}
+
+

@@ -1,0 +1,260 @@
+﻿@using ForumSystem.Web.Infrastructure.Extensions
+@using Microsoft.AspNet.Identity
+
+@model ForumSystem.Web.ViewModels.Posts.PostViewModel
+
+<div id="@Model.Id">
+    <div class="forum-post post-item highlighted-post">
+        <div class="head-post table-holder">
+            <div class="cell">
+                <div class="user-wrap">
+                    <span class="user-avatar">
+                        @Html.Action("GetUserImage", "Users", new { area = string.Empty, id = Model.AuthorId })
+                    </span>
+                    <span class="cell">
+                        <a href="@Url.Action("Details", "Users", new { area = string.Empty, id = Model.AuthorId })" class="user-name">@Model.Author</a>
+                        @Html.Action("Roles", "Users", new { area = string.Empty, id = Model.AuthorId })
+                    </span>
+                </div>
+                <div class="meta-info-wrap">
+                    <span class="item-wrap" title="Views">
+                        <span class="icon-holder">
+                            <i class="fa fa-eye"></i>
+                        </span>
+                        <span class="cell">@Model.Views</span>
+                    </span>
+                    <span class="item-wrap" title="Answers">
+                        <span class="icon-holder">
+                            <i class="fa fa-comments"></i>
+                        </span>
+                        <span class="cell">@Model.AnswersCount</span>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="post-content">
+            <h2 class="post-title">
+                <a href="@Url.Action("Details", "Posts", new { area = string.Empty, id = Model.Id })">@Model.Title</a>
+            </h2>
+            @Html.Raw(Model.Content)
+        </div>
+        <div class="meta-info">
+            @if (User.IsLoggedIn())
+            {
+                <div class="cell" id="post-like-@Model.Id">
+                    @Html.Action("Like", "PostLikes", new { area = string.Empty, id = Model.Id })
+                </div>
+            }
+            else
+            {
+                <div class="cell stats-holder likes-holder">
+                    <div class="table-holder">
+                        <div class="cell">
+                            <span class="item-wrap votes-post">
+                                <span class="icon-holder">
+                                    <i class="fa fa-thumbs-o-up"></i>
+                                </span>
+                                <span class="cell">@Model.LikesCount</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            }
+            <div class="cell post-details-holder">
+
+                <div class="table-holder">
+                    <div class="cell">
+                        <span class="item-wrap">
+                            <span class="icon-holder" title="Created On">
+                                <i class="fa fa-clock-o"></i>
+                            </span>
+                            <span class="post-date" title="Created On">
+                                @Model.CreatedOn
+                            </span>
+                        </span>
+                        <span class="item-wrap category-wrap">
+                            <span class="icon-holder" title="Category">
+                                <i class="fa fa-folder-open"></i>
+                            </span>
+                            <a href="@Url.Action("Details", "Categories", new { area = string.Empty, id = Model.CategoryId })" class="cell" title="Category">
+                                @Model.Category
+                            </a>
+                        </span>
+                        @if (Model.ModifiedOn.HasValue)
+                        {
+                            <span class="item-wrap category-wrap">
+                                <span class="icon-holder" title="Last Modified">
+                                    <i class="fa fa-refresh"></i>
+                                </span>
+                                <span class="last-redaction cell" title="Last Modified">
+                                    <span class="date-time">@Model.ModifiedOn</span>
+                                </span>
+                            </span>
+                        }
+
+                        @if (Model.ReportsCount > 0)
+                        {
+                            <span class="item-wrap category-wrap" title="Reports">
+                                <span class="icon-holder">
+                                    <i class="fa fa-exclamation-circle"></i>
+                                </span>
+                                <span>@Model.ReportsCount</span>
+                            </span>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        @if (Model.IsLocked)
+        {
+            <div class="meta-info table-holder meta-details highlighted-yellow">
+                <div class="cell buttons-holder comment-holder">
+                    <div class="table-holder">
+                        <div class="cell">
+                            <span class="item-wrap category-wrap pull-left" title="Locked by">
+                                <span class="icon-holder">
+                                    <i class="fa fa-lock"></i>
+                                </span>
+                            </span>
+                            <a href="@Url.Action("Details", "Users", new { area = string.Empty, id = Model.LockedById })">
+                                @Model.LockedBy
+                            </a>
+                            <div>
+                                <span>
+                                    @if (!string.IsNullOrEmpty(Model.LockReason))
+                                    {
+                                        @Model.LockReason
+                                    }
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+
+        @Html.Action("GetById", "PostUpdates", new { area = string.Empty, id = Model.Id })
+
+        @if (User.IsLoggedIn())
+        {
+            <div class="meta-info table-holder meta-details post-actions-toolbar">
+                <div class="cell buttons-holder">
+                    <div class="table-holder">
+                        <div class="cell">
+                            @if (!Model.IsLocked)
+                            {
+                                @Ajax.ActionLink("Answer", "Create", "Answers", new { id = Model.Id }, new AjaxOptions
+                                                   {
+                                                       HttpMethod = "GET",
+                                                       InsertionMode = InsertionMode.Replace,
+                                                       UpdateTargetId = "answer-action-container"
+                                                   }, new { @class = "btn primary-btn" })
+                            }
+
+                            @if (User.Identity.GetUserId() == Model.AuthorId && (!User.IsAdmin() && !User.IsModerator()))
+                            {
+                                <a href="@Url.Action("Edit", "Posts", new { area = string.Empty, id = Model.Id })" class="btn primary-btn">
+                                    Edit
+                                </a>
+                            }
+
+                            @if (User.IsModerator())
+                            {
+                                <a href="@Url.Action("Edit", "Posts", new { area = "Moderator", id = Model.Id })" class="btn primary-btn">
+                                    Edit
+                                </a>
+                            }
+
+                            @if (User.IsAdmin())
+                            {
+                                <a href="@Url.Action("Edit", "Posts", new { area = "Administration", id = Model.Id })" class="btn primary-btn">
+                                    Edit
+                                </a>
+                            }
+
+                            @if ((User.IsModerator() || User.IsAdmin()) && !Model.IsPinned)
+                            {
+                                @Ajax.ActionLink("Pin", "Pin", "Posts", new { area = "Moderator", id = Model.Id }, new AjaxOptions
+                                                   {
+                                                       HttpMethod = "GET",
+                                                       InsertionMode = InsertionMode.Replace,
+                                                       UpdateTargetId = "show-modal",
+                                                       OnSuccess = $"PinPostConfirm_{Model.Id}"
+                                                   }, new { @class = "btn primary-btn" })
+                            }
+
+                            @if ((User.IsModerator() || User.IsAdmin()) && Model.IsPinned)
+                            {
+                                @Ajax.ActionLink("Unpin", "Unpin", "Posts", new { area = "Moderator", id = Model.Id }, new AjaxOptions
+                                                   {
+                                                       HttpMethod = "GET",
+                                                       InsertionMode = InsertionMode.Replace,
+                                                       UpdateTargetId = "show-modal",
+                                                       OnSuccess = $"UnpinPostConfirm_{Model.Id}"
+                                                   }, new { @class = "btn primary-btn" })
+                            }
+
+                            @if ((User.Identity.GetUserId() == Model.AuthorId || User.IsModerator() || User.IsAdmin()) && !Model.IsLocked)
+                            {
+                                @Ajax.ActionLink("Lock", "Lock", "Posts", new { area = string.Empty, id = Model.Id }, new AjaxOptions
+                                                   {
+                                                       HttpMethod = "GET",
+                                                       InsertionMode = InsertionMode.Replace,
+                                                       UpdateTargetId = "answer-action-container"
+                                                   }, new { @class = "btn primary-btn" })
+                            }
+
+                            @if ((User.Identity.GetUserId() == Model.AuthorId || User.IsModerator() || User.IsAdmin()) && Model.IsLocked)
+                            {
+                                @Ajax.ActionLink("Unlock", "Unlock", "Posts", new { area = string.Empty, id = Model.Id }, new AjaxOptions
+                                                   {
+                                                       HttpMethod = "GET",
+                                                       InsertionMode = InsertionMode.Replace,
+                                                       UpdateTargetId = "show-modal",
+                                                       OnSuccess = $"UnlockPostConfirm_{Model.Id}"
+                                                   }, new { @class = "btn primary-btn" })
+                            }
+
+                            @if (User.Identity.GetUserId() == Model.AuthorId || User.IsModerator() || User.IsAdmin())
+                            {
+                                @Ajax.ActionLink("Delete", "Delete", "Posts", new { area = string.Empty, id = Model.Id }, new AjaxOptions
+                                                   {
+                                                       HttpMethod = "GET",
+                                                       InsertionMode = InsertionMode.Replace,
+                                                       UpdateTargetId = "show-modal",
+                                                       OnSuccess = $"DeletePostConfirm_{Model.Id}"
+                                                   }, new { @class = "btn primary-btn" })
+                            }
+
+                            @if (Model.ReportsCount > 0 && (User.IsModerator() || User.IsAdmin()))
+                            {
+                                @Ajax.ActionLink("Reports", "GetAllById", "PostReports", new { area = "Moderator", id = Model.Id }, new AjaxOptions
+                                                   {
+                                                       HttpMethod = "GET",
+                                                       InsertionMode = InsertionMode.Replace,
+                                                       UpdateTargetId = "show-modal",
+                                                       OnSuccess = "LoadPostReports"
+                                                   }, new { @class = "btn primary-btn" })
+                            }
+
+                            @if (User.Identity.GetUserId() != Model.AuthorId)
+                            {
+                                @Ajax.ActionLink("Report", "Create", "PostReports", new { area = string.Empty, id = Model.Id }, new AjaxOptions
+                                                   {
+                                                       HttpMethod = "GET",
+                                                       InsertionMode = InsertionMode.Replace,
+                                                       UpdateTargetId = "answer-action-container"
+                                                   }, new { @class = "btn btn-link link-btn pull-right" })
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="meta-info" id="answer-action-container"></div>
+            <div id="report-action-success"></div>
+        }
+
+    </div>
+</div>

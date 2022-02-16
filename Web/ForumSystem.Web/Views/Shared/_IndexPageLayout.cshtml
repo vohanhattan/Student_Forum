@@ -1,0 +1,12 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row">
+    <div class="index-sidebar">
+        @Html.Partial("_SidebarPartial")
+    </div>
+    <section class="col-md-9 col-sm-12 article-wrapper">
+        @RenderBody()
+    </section>
+</div>

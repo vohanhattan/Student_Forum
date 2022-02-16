@@ -1,0 +1,13 @@
+﻿@model ForumSystem.Web.ViewModels.Categories.CategoryViewModel
+@{
+    ViewBag.Title = Model.Title;
+    Layout = "~/Views/Shared/_CategoryPageLayout.cshtml";
+}
+
+<a href="@Url.Action("Create", "Posts", new { area = string.Empty, id = Model.Id })" class="btn success-btn btn-sm">
+    <i class="fa fa-plus"></i>
+    <span>New Post</span>
+</a>
+
+@Html.Action("PinnedPosts", "Categories", new { area = string.Empty, id = Model.Id })
+@Html.Action("Posts", "Categories", new { area = string.Empty, id = Model.Id })

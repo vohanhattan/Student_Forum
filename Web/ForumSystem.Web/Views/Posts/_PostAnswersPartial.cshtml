@@ -1,0 +1,61 @@
+﻿@using System.Linq
+@using PagedList.Mvc
+
+@model PagedList.IPagedList<ForumSystem.Web.ViewModels.Answers.AnswerViewModel>
+
+@{
+    const string AnswerPartialViewsFolder = "~/Views/Answers/{0}.cshtml";
+
+    var postId = Model.Select(m => m.PostId).FirstOrDefault();
+}
+
+@if (Model.HasNextPage || Model.HasPreviousPage)
+{
+    <div class="pagination-container">
+        <div class="inner-holder">
+            @Html.PagedListPager(Model, page => Url.Action("Details", new { id = postId, page }), PagedListRenderOptions.ClassicPlusFirstAndLast)
+        </div>
+    </div>
+}
+
+<div id="answers">
+    @foreach (var answer in Model)
+    {
+        @Html.Partial(string.Format(AnswerPartialViewsFolder, "_AnswerDetailPartial"), answer)
+
+        <div id="comments-@answer.Id">
+            @if (answer.HasComments)
+            {
+                @Html.Action("All", "Comments", new { area = string.Empty, id = answer.Id })
+            }
+        </div>
+    }
+</div>
+
+@if (Model.HasNextPage || Model.HasPreviousPage)
+{
+    <div class="pagination-container">
+        <div class="inner-holder">
+            @Html.PagedListPager(Model, page => Url.Action("Details", new { id = postId, page }), PagedListRenderOptions.ClassicPlusFirstAndLast)
+        </div>
+    </div>
+}
+
+
+<script>
+    function closeForm() {
+        $("#answer-action-container").empty();
+    }
+
+    function closeFormAndReload() {
+        $("#answer-action-container").empty();
+        window.location.reload();
+    }
+
+    function showAnswerRequiredError(data) {
+        $('<div class="top-buffer left-buffer field-validation-error">'
+                + data.responseJSON.errorMessage
+                + '</div>').prependTo('#field-validation-error-message')
+            .delay(3000).fadeOut();
+    }
+</script>

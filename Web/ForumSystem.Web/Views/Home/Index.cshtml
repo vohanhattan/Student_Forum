@@ -1,0 +1,28 @@
+﻿@model ForumSystem.Web.ViewModels.Home.IndexPageViewModel
+@{
+    ViewBag.Title = "Home Page";
+    Layout = "~/Views/Shared/_IndexPageLayout.cshtml";
+}
+
+@foreach (var item in Model.Sections)
+{
+    <div class="section-container">
+        <div class="panel-group">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <div class="panel-title section-title">
+                        <a href="@Url.Action("Details", "Sections", new { area = string.Empty, id = item.Id })">
+                            @item.Title
+                        </a>
+                        <span class="icon-holder">
+                            <i class="fa fa-chevron-down pull-right" data-toggle="collapse" data-target="#collapse-section-@item.Id"></i>
+                        </span>
+                    </div>
+                </div>
+                <div class="collapse in panel-body" id="collapse-section-@item.Id">
+                    @Html.Action("Categories", "Sections", new { area = string.Empty, id = item.Id })
+                </div>
+            </div>
+        </div>
+    </div>
+}

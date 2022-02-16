@@ -1,0 +1,16 @@
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web.Infrastructure\bin\Debug\ForumSystem.Web.Infrastructure.dll.config
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web.Infrastructure\bin\Debug\ForumSystem.Web.Infrastructure.dll
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web.Infrastructure\bin\Debug\ForumSystem.Web.Infrastructure.pdb
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web.Infrastructure\bin\Debug\AutoMapper.dll
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web.Infrastructure\bin\Debug\ForumSystem.Common.dll
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web.Infrastructure\bin\Debug\Newtonsoft.Json.dll
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web.Infrastructure\bin\Debug\System.Web.Mvc.dll
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web.Infrastructure\bin\Debug\ForumSystem.Common.pdb
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web.Infrastructure\bin\Debug\AutoMapper.xml
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web.Infrastructure\bin\Debug\Newtonsoft.Json.xml
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web.Infrastructure\bin\Debug\System.Web.Mvc.xml
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web.Infrastructure\obj\Debug\ForumSystem.Web.Infrastructure.csprojAssemblyReference.cache
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web.Infrastructure\obj\Debug\ForumSystem.Web.Infrastructure.csproj.CoreCompileInputs.cache
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web.Infrastructure\obj\Debug\ForumSystem.Web.Infrastructure.csproj.CopyComplete
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web.Infrastructure\obj\Debug\ForumSystem.Web.Infrastructure.dll
+E:\Downloads\ForumSystem-master\ForumSystem-master\ForumSystem\Web\ForumSystem.Web.Infrastructure\obj\Debug\ForumSystem.Web.Infrastructure.pdb
